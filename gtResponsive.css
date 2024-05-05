@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+
+    .menu {
+        display: none;
+    }
+
+    .navbar i {
+        display: block;
+        font-size: 26px;
+        color: var(--white);
+    }
+
+    .content {
+        height: 100%;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .content .textbox {
+        height: 50%;
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .textbox h1 {
+        font-size: 50px;
+    }
+
+    .textbox h1 span {
+        font-size: 120px;
+        margin-top: -10px;
+    }
+
+    .textbox h1 p {
+        font-size: 10px;
+        margin-top: -20px;
+        text-align: center;
+    }
+
+
+    .content .bikebox {
+        height: 50%;
+        width: 100%;
+    }
+
+    .content .bikebox img {
+        width: 400px;
+    }
+
+    .btn {
+        position: absolute;
+        bottom: -50px;
+    }
+}
